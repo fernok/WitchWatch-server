@@ -12,7 +12,6 @@ async function main() {
         'app',
         {
             dynamicJson: true,
-            watchPg: true
         }
     );
   
