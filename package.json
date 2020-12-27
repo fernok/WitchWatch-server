@@ -11,6 +11,7 @@
   "dependencies": {
     "apollo-server": "^2.19.1",
     "pg": "^8.5.1",
+    "postgraphile": "^4.10.0",
     "postgraphile-apollo-server": "^0.1.1"
   }
 }
