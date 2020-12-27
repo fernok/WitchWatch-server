@@ -21,8 +21,9 @@ async function main() {
         plugins: [plugin]
     });
   
-    const { url } = await server.listen();
-    console.log(`🚀 Server ready at ${url}`);
+    // const { url } = await server.listen();
+    await server.listen();
+    // console.log(`🚀 Server ready at ${url}`);
 }
   
 main().catch(e => {
