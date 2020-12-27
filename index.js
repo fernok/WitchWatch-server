@@ -22,7 +22,7 @@ async function main() {
     });
   
     // const { url } = await server.listen();
-    await server.listen();
+    await server.listen(process.env.PORT || 5000);
     // console.log(`🚀 Server ready at ${url}`);
 }
   
