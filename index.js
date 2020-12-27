@@ -18,7 +18,7 @@ async function main() {
     const server = new ApolloServer({
         schema,
         plugins: [plugin],
-        playground: true
+        playground: true,
     });
   
     // const { url } = await server.listen();
