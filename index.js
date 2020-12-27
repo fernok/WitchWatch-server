@@ -18,6 +18,7 @@ async function main() {
     const server = new ApolloServer({
         schema,
         plugins: [plugin],
+        introspection: true,
         playground: true,
     });
   
